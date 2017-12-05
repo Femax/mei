@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<AnchorPane id="AnchorPane" prefHeight="150.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/8.0.40" fx:controller="com.mei.ui.MainController">
+    <children>
+        <ImageView fx:id="imageView" layoutX="50" layoutY="50" accessibleText="Set image"/>
+        <Button fx:id="button" layoutX="66.0" layoutY="48.0" onAction="#handleButtonAction" text="Click Me!"/>
+        <Label fx:id="label" layoutX="64.0" layoutY="85.0" prefHeight="17.0" prefWidth="73.0"/>
+    </children>
+</AnchorPane>
